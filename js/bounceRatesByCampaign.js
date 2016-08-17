@@ -15,7 +15,7 @@ var bounceData ={
   var mauChart = $('#campaign-bounce-rate').MPChart({chartType: 'bar', highchartsOptions: {
     tooltip: {
             formatter: function () {
-                return '<p style="margin-top: 10px; padding: 5px,5px,5px,5px;"><b>Article Name: </b>' + this.x +'</p><p><b>Bounce Rate:'+this.y +'%</p>';
+                return '<p style="margin-top: 10px; padding: 5px,5px,5px,5px;"><b>Article Name: </b>' + this.x +'</p><p><b>Conversion Rate: '+this.y +'%</p>';
             }
         },
     legend: {
