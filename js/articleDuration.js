@@ -13,7 +13,7 @@ var timeSpentData ={
 
 }
 
-  var timeSpent = $('#time-spent-chart').MPChart({chartType: 'pie', highchartsOptions: {
+  var timeSpent = $('#time-spent-chart').MPChart({chartType: 'bar', highchartsOptions: {
     legend: {
       enabled: true,
       y: -7
