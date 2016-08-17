@@ -51,7 +51,7 @@ $('#trending-time-spent-header').click(function () {
 $('#trending-article-count-header').click(function () {
 	var mp_url_platform =   window.document.referrer.split('/mpplatform')[0]
 	console.log(mp_url_platform)
-	var mp_url_segmentation = mp_url_platform + "/#action:segment,arb_event:'Read%20Article',bool_op:and,chart_type:bar,from_date:-29,ms_checked:('0':!t,'10':!t,'11':!t,'12':!t,'13':!t,'16':!t,'21':!t,'23':!t,'3':!t,'4':!t,'6':!t,'7':!t),ms_values:!('0','3','4','6','7','10','11','12','13','16','21','23'),segfilter:!((dropdown_tab_index:0,property:(name:'Local%20Time',source:properties,type:number),selected_property_type:number,type:number)),segment_type:number,to_date:0,type:general,unit:day"
+	var mp_url_segmentation = mp_url_platform + "/#action:average,arb_event:'Read%20Article',bool_op:and,chart_analysis_type:linear,chart_type:line,from_date:-29,ms_checked:('Read%20Article':!t),ms_values:!('Read%20Article'),segfilter:!((dropdown_tab_index:0,property:(name:'Local%20Time',source:properties,type:number),selected_property_type:number,type:number)),segment_type:number,to_date:0,type:general,unit:day"
 	window.open(mp_url_segmentation)
 
 })
